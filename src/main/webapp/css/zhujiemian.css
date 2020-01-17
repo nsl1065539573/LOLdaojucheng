@@ -1,0 +1,390 @@
+#d01{
+    height: 30px;
+}
+.a1 {
+				height: 25px !important;
+				padding: 0 !important;
+				margin-left: 10px !important;
+				display: inline-block !important;
+				color: grey !important;
+			}
+
+			.a2 {
+				color: grey !important;
+				margin-left: 10px;
+				text-align: left !important;
+				padding: 0px !important;
+				font-size: 12px !important;
+				height: 30px !important;
+				width: 30px !important;
+			}
+
+			/*.a3 {*/
+				/*display: inline-block;*/
+				/*height: 50px;*/
+				/*width: 100px;*/
+			/*}*/
+
+			/*.a3:link {*/
+				/*text-decoration: none;*/
+				/*color: #939F89 !important;*/
+			/*}*/
+
+			/*.a3:visited {*/
+				/*text-decoration: none;*/
+				/*color: #939F89 !important;*/
+			/*}*/
+
+			/*.a3:hover {*/
+				/*text-decoration: none;*/
+				/*color: white !important;*/
+			/*}*/
+
+			/*.a3:active {*/
+				/*text-decoration: none;*/
+				/*color: white !important;*/
+			/*}*/
+
+			.a2:hover {
+				text-decoration: none;
+				background-color: white !important;
+				color: orangered !important;
+			}
+
+			.s3 {
+				font-size: 13px;
+				color: black;
+				width: 100px;
+				/*margin-top: 10px;*/
+				position: absolute;
+				top: 10px;
+			}
+
+			#ll {
+				color: grey;
+				margin-left: 155px;
+			}
+			.a1:hover {
+				background-color: white !important;
+				color: orangered !important;
+			}
+
+			#d02 {
+				height: 25px !important;
+				background-color: #191C25 !important;
+			}
+
+			#u1 {
+				min-width: 100px !important;
+				margin-right: 120px !important;
+			}
+
+			#d04 {
+				width: 1344px !important;
+				padding: 0px !important;
+				margin: 0px !important;
+				background-color:#F3F4F6;
+			}
+			#i04 {
+				display: inline-block;
+				width: 70px;
+				height: 70px;
+				position: absolute;
+				right: 3px;
+			}
+			.l2 {
+				float: left;
+				margin-left: 50px;
+			}
+			#d07 {
+				background-color: white;
+				height: 300px;
+				padding: 0px;
+				opacity: 0.9;
+				margin-left: 40px;
+			}
+			
+			.d08 {
+				border: 1px black solid;
+			}
+			
+			#d09 {
+				border: 1px green solid;
+				margin: 0px;
+				padding: 0px;
+				height: 302px;
+			}
+			
+			#d010 {
+				padding-bottom: 30px !important;
+				margin: 0px;
+				width: 100%;
+			}
+
+			#d035 {
+				height: 50px;
+				background-color: #F3F4F6;
+				margin: 0px;
+				font-size: 12px;
+			}
+			
+			#d036 {
+				font-size: 15px;
+				color: black !important;
+			}
+			
+			#d037 {
+				display: flex;
+				width: 100%;
+				margin: 0px;
+				height: 100px;
+			}
+			
+
+			
+			#p5 {
+				text-align: right;
+				margin-right: 10px;
+			}
+			
+			#s4 {
+				margin-left: 160px;
+				font-size: 10px;
+			}
+			
+			.p1 {}
+			
+			.s4 {
+				text-align: right;
+			}
+			
+			.d039 {
+				height: 300px;
+				margin: 0px;
+				padding: 0px;
+			}
+			
+			.d040 {
+				margin: 0px;
+				padding: 0px;
+			}
+			
+			#dd014 {
+				background-color: white;
+				width: 1250px;
+				margin-left: 40px;
+				height: 50px;
+				font-size: 30px;
+			}
+
+a{
+	cursor: pointer !important;
+}
+	#wenxintishi1{
+				line-height: 50px;
+				display: inline-block;
+				font-weight: bold;
+				font-size: 16px;
+				font-family: 微软雅黑;
+
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			#dd015 {
+				background-color: white;
+				height: 420px; !important;
+				margin-left: 40px;
+				border: 1px gold dotted;
+				text-align: center;
+			}
+			
+			.b01 {
+				height: 80px;
+				width: 100%;
+				background-color: #C58740;
+				border: 1px goldenrod solid;
+				border-radius: 1px;
+				font-size: large;
+			}
+			
+			.a4:hover {
+				color: white !important;
+				border-color: white !important;
+				background-color: wheat !important;
+				text-decoration: none !important;
+			}
+			
+			.a5 {
+				width: 100%;
+				margin: 0px;
+			}
+			
+			.p1 {
+				margin-top: 5px;
+				padding: 0px;
+				margin: 0px;
+				color: black !important;
+			}
+			
+			.p2 {
+				font-size: 15px;
+				font-weight: bold;
+			}
+			
+			#i05 {
+				font-size: 15px;
+				margin-left: 700px;
+			}
+			
+			#i05:hover {
+				text-decoration: none;
+			}
+			
+			#s6 {
+				font-size: 50px;
+				text-align: right;
+			}
+			
+			#d040 {
+				display: flex;
+				height: 200px;
+				background-color: #3B3F4A;
+				margin-left: 40px;
+			}
+			
+			.d041 {
+				display: inline-block;
+				height: 400px;
+				width: 220px;
+				margin-left: 30px;
+				margin-top: 10px;
+				text-align: center;
+				border: 1px lightgrey double;
+				justify-content: center;
+				border-radius: 4px;
+			}
+			.div_3{
+				display: inline-block;
+				height: 400px;
+				width: 280px;
+				margin: auto;
+				text-align: center;
+				border: 1px lightgrey double;
+				justify-content: center;
+				border-radius: 4px;
+			}
+
+			.d042 {
+				padding: 0px;
+				margin: 0px;
+				height: 100px;
+			}
+			
+			.i5 {
+				width: 150px;
+				height: 250px;
+				margin-top: 10px;
+				border: 2px lightgrey solid;
+				border-radius: 5px;
+			}
+			
+			.i6 {
+				display: inline-block;
+				height: 60px;
+				width: 80px;
+				position: relative;
+				right: 20px;
+				margin-top: 4px;
+				border: 1px lightgrey solid;
+				border-radius: 5px;
+			}
+			
+			.d043 {
+				margin-top: 20px;
+			}
+			
+			.d044 {
+				display: inline-block;
+				width: 90px;
+				height: 60px;
+				position: relative;
+				top: 20px;
+				right: 20px;
+				margin-top: 4px;
+				font-size: 13px;
+			}
+			
+			.d050 {
+				margin-left: 35px;
+				border-radius: 2px;
+			}
+			
+			#d051 {
+				background-color: #3B3F4A;
+			}
+			.s7 {
+				font-size: 13px;
+			}
+			
+			.s8 {
+				color: orangered;
+				font-size: large;
+				margin-left: 30px;
+			}
+			
+			.i8 {
+				border: 2px lightgrey solid;
+				border-radius: 5px;
+			}
+			
+			.i9 {
+				width: 150px;
+				height: 250px;
+				margin-top: 10px;
+				border: 2px lightgrey solid;
+				border-radius: 5px;
+			}
+			.a8 {
+				color: black;
+				font-weight: 100;
+				font-size: 12px;
+			}
+			
+			#p7 {
+				text-align: right;
+			}
+			
+			.c1 {
+				color: #FF5900 !important;
+				font-size: 16px !important;
+				font-weight: bold !important;
+			}
+			
+			.p6 {
+				color: grey !important;
+				font-size: 13px !important;
+			}
+			.b02{
+				background-color: #36AB87;
+				color:white;
+				font-size:15px;
+				height: 35px;
+				width: 140px;
+				border: 0px;
+				border-radius: 3px;
+				margin-bottom: 2%;
+			}
+#daohanglan_button_id_01{
+	margin-left: 55px !important;
+}

@@ -1,0 +1,52 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: nansongling
+  Date: 2019/4/2
+  Time: 21:34
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title>搜索列表</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/bootstrap.css" />
+    <script src="${pageContext.request.contextPath}/js/jquery-3.3.1.js" type="text/javascript" charset="utf-8"></script>
+    <script src="${pageContext.request.contextPath}/js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+    <script src="${pageContext.request.contextPath}/js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/sousuo_list.css"/>
+    <script src="${pageContext.request.contextPath}/js/sousuo_list.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/head.css" />
+    <script type="text/javascript" src="${pageContext.request.contextPath}/js/head.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/down.css" type="text/css" />
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/daohanglan.css"/>
+</head>
+<body>
+<%@include file="head.jsp"%>
+<%@include file="daohanglan.jsp"%>
+<div class="row">
+    <!-- 用这个盒子当左边空白-->
+    <div class="col-md-1 col-lg-1 col-xs-1 col-sm-1"></div>
+    <!-- 这个盒子做热门推荐-->
+    <div class="col-md-2 col-lg-2 col-xs-2 col-sm-2" style="padding: 0px">
+        <p style="margin-top:40px;font-size: 15px;color:red">热门排行</p>
+        <div id="sousuo_list_div_id_01">
+        </div>
+    </div>
+    <div class="col-md-9 col-lg-9 col-xs-9 col-sm-9" >
+        <div id="sousuo_list_div_id_02">
+        </div>
+        <div style="width: 100%;text-align: center">
+            <ul id="sousuo_list_ul" class="pagination">
+
+            </ul>
+        </div>
+
+
+    </div>
+</div>
+<%@include file="down.jsp"%>
+</body>
+</html>

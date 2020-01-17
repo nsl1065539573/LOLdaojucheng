@@ -1,0 +1,105 @@
+body{
+    background-color:#F3F4F6;
+    height: 100%;
+    width: 100%;
+}
+#userInfoDiv{
+    margin-top: 100px;
+    background-color: white;
+    height: 400px;
+}
+.span_1{
+    display: inline-block;
+    width: 100px;
+}
+#change_sure1{
+    margin-top: 30px;
+}
+#change_sure2{
+    margin-top: 30px;
+}
+#img_timo{
+    position: absolute;
+    right: 80px;
+    top: 30px;
+}#img_xiaopao{
+    position: absolute;
+    top: 45px;
+    right: 330px;
+    width: 200px;
+    height: 200px;
+ }
+.yangshi_input{
+    height: 35px;
+    width: 200px;
+    border-radius: 3px;
+    padding-left: 10px;
+    border: 1px darkgray solid;
+}
+.userDetail{
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.changeUserDetail{
+    margin-top: 18px;
+}
+.button_yangshi{
+    background-color: #36AB87;
+    color: white;
+    font-size: 15px;
+    height: 35px;
+    width: 140px;
+    border: none;
+    border-radius: 3px;
+    margin-left: 25px;
+}
+.style_change{
+    position: fixed;
+    z-index:120 ;
+    top: 20%;
+    left: 20%;
+    height: 60%;
+    width: 60%;
+    background-color: white;
+    opacity: 95%;
+    visibility: hidden;
+}
+.change_head{
+    height: 13%;
+    width: 100%;
+    background-color: #F5F5F5;
+    border-bottom: 2px solid #DDDDDD;
+}
+.change_head_span{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.close_style{
+    display: inline-block;
+    border: 1px solid #DDDDDD;
+    height: 25px !important;
+    width: 25px !important;
+    text-align: center;
+    line-height: 25px !important;
+    font-size: 14px !important;
+    color: #BDBDBD;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.close_style:hover{
+    background-color: red;
+    color: white;
+}
+#change_sure{
+    margin-top: 20px;
+
+}
+.change_body{
+    text-align: center;
+}

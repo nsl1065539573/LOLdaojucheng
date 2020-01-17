@@ -1,0 +1,81 @@
+.list_div_class_01{
+    float: left;
+    display: inline-block;
+    width: 100px;
+    height: 60px;
+    /*position: relative;*/
+    /*top: 20px;*/
+    /*right: 20px;*/
+    margin-top: 23px;
+    font-size: 13px;
+}
+body{
+    padding: 0;
+}
+.shubiao{
+    cursor: pointer;
+}
+a{
+    cursor: pointer !important;
+}
+.details_div{
+    display: inline-block;
+    height: 360px;
+    width: 190px;
+    margin-left: 30px;
+    margin-top: 10px;
+    text-align: center;
+    border: 1px lightgrey double;
+    justify-content: center;
+    border-radius: 4px;
+}
+.productMainImage{
+    width: 120px;
+    height: 200px;
+    margin-top: 10px;
+    border: 2px lightgrey solid;
+    border-radius: 5px;
+}
+.productName{
+    font-size: 15px;
+    font-weight: bold;
+}
+.price_Q{
+    color: grey !important;
+    font-size: 13px !important;
+}
+.price_W{
+    color: grey !important;
+    font-size: 13px !important;
+}
+.price_Qb{
+    color: #FF5900 !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
+}
+.price_Wx{
+    color: #FF5900 !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
+}
+.buy_button{
+    background-color: #36AB87;
+    color:white;
+    font-size:15px;
+    height: 35px;
+    width: 120px;
+    border: 0px;
+    border-radius: 3px;
+    margin-bottom: 2%;
+}
+.list_img_class_01{
+    float: left;
+    display: inline-block;
+    height: 60px;
+    width: 80px;
+    /*position: relative;*/
+    /*right: 20px;*/
+    margin-top: 23px;
+    border: 1px lightgrey solid;
+    border-radius: 5px;
+}

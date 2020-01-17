@@ -1,0 +1,137 @@
+body{
+    background-color: #F3F4F6;
+    margin: 0px;
+    padding: 0px;
+}
+.noJianJu{
+    margin: 0px;
+    padding: 0px;
+}
+#orderMain{
+    height: 500px;
+    background-color: white;
+}
+#orderHead{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 800;
+    width: 100%;
+    height: 40px;
+}
+.line{
+    width: 100%;
+    display: inline-block;
+    background-color: #e6e9ef;
+    height: 1px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+#pictureDiv{
+    height: 120px;
+    width:120px;
+    background-color: black;
+    margin-top: 70px;
+}
+#bodyDiv{
+    text-align: center;
+    vertical-align: middle;
+}
+.line_1{
+
+    background-color: #f74a4a;
+    display: inline-block;
+
+    height: 2px;
+    width: 58px;
+    overflow: hidden;
+}
+#orderLogo{
+    width: 130px;
+    height: 44px;
+    border-right: 1px solid #e6e9ef;
+    border-bottom: 1px solid #e6e9ef;
+    text-align: center;
+    line-height: 44px;
+}
+#divLogo{
+    height: 45px;
+    width: 100%;
+    padding: 0 10px 0 10px;
+    border: 2px solid #e6e9ef;
+}
+#orderList{
+    border-right: 2px solid #e6e9ef;
+    border-bottom: 2px solid #e6e9ef;
+    border-left: 2px solid #e6e9ef;
+    padding-bottom: 30px;
+    font-size: 12px;
+}
+#orderTable{
+    font-size: 12px;
+}
+.center{
+    text-align: center;
+    padding-top: 3px;
+    vertical-align: middle !important;
+}
+a{
+    cursor: pointer !important;
+}
+.payButton{
+    background-color: #FF5900;
+    color: white;
+    border-radius: 2px;
+    height: 30px;
+    width: 60px;
+    border: none;
+}
+#juliDiv{
+    margin-top: 20px;
+}
+.payButton:hover{
+    background-color: #FF4800;
+}
+#erweimaDiv{
+    position: fixed;
+    z-index:120 ;
+    top: 20%;
+    left: 20%;
+    height: 400px;
+    width: 60%;
+    background-color: white;
+    opacity: 95%;
+    visibility: hidden;
+}
+#divHead{
+    height: 17%;
+    width: 100%;
+    background-color: #F5F5F5;
+    border-bottom: 2px solid #DDDDDD;
+}
+#span_1{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
+#close_erweima{
+    display: inline-block;
+    border: 1px solid #DDDDDD;
+    height: 25px !important;
+    width: 25px !important;
+    text-align: center;
+    line-height: 25px !important;
+    font-size: 14px !important;
+    color: #BDBDBD;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+#close_erweima:hover{
+    background-color: red;
+    color: white;
+}
